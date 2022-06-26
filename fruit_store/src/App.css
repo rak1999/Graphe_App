@@ -218,10 +218,14 @@ button{
     background-color: #303030;
   }
   #logo{
-    margin: 2% 3%;
+    margin: 10% 3%;
   }
   #company_logo{
     width: 5rem;
+  }
+
+  #heading-container{
+    margin: 10% 3%;
   }
 
   #profile{
@@ -260,9 +264,17 @@ button{
     height: 1.5rem;
   }
 
+  #cart{
+    margin: 10% 3%;
+  }
+
   #cart_logo{
     width: 2rem;
     height: 2rem;
+  }
+
+  #container-main{
+    margin: 17% 2%;
   }
 
   #left{
