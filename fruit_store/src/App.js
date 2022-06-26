@@ -6,7 +6,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const [addItem , setAddItem] = useState(0);
-  const[price ,setPrice] = useState(0.30);
+  const[price ,setPrice] = useState(0);
   const AddToCart =()=>{
     setAddItem(addItem+1);
     setPrice(price + 0.30);
