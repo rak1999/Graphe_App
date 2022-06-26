@@ -7,16 +7,16 @@ const Heading = () => {
     const [ wish , setWish] = useState(0);
     const AddWish = ()=>{setWish(wish+1)}
   return (
-    <div id="heading-constainer">
+    <div id="heading-container">
         <div id='heading'>
             <div >
-                <img id='profile' src={Profile} width="60" alt="Profile"/>
+                <img id='profile' src={Profile} alt="Profile"/>
             </div>
             <div id='bag'>
-                <img id='bag_logo' src={Bag} width="100" alt="Bag"/>
+                <img id='bag_logo' src={Bag} alt="Bag"/>
             </div>
             <div id='location'>
-                <img id='location_logo' src={Location} width="60" alt="Location"/>
+                <img id='location_logo' src={Location} alt="Location"/>
                 <p id='place'>Mumbai</p>
             </div>
         </div>

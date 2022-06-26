@@ -11,8 +11,8 @@ const Bottom = (props) => {
       </div>
       <div className="receipt-container">
         <div className="receipt-header">
-            <h1>TOTAL</h1>
-            <img src={Receipt} alt="receipt"/>
+            <h1 id='tag'>TOTAL</h1>
+            <img id='receipt_logo' src={Receipt} alt="receipt"/>
         </div>
         <div className="receipt-body">
             <h1 id='total_amount'>${props.price}</h1>

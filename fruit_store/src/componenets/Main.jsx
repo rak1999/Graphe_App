@@ -33,6 +33,7 @@ const Main = (props) => {
         }
         else{
             setFruit(fruit+1);
+            
         }
     }
     const prev = () => {
@@ -48,7 +49,7 @@ const Main = (props) => {
     <div id='container-main'>
         <div id='left'>
             <button onClick={prev}><img id='left_logo' src={Left} alt="left-arrow"/></button>
-            <h2>{fruits[fruit]}</h2>
+            <h2 id='prev_fruit'>{fruits[fruit]}</h2>
         </div>
         <div id='fruit-container'>
             <h1 id='fruitName'>{fruitList[fruit].fruitName}</h1>
@@ -58,7 +59,7 @@ const Main = (props) => {
         </div>
         <div id="right">
             <button onClick={next}><img id='right_logo' src={Right} alt="right-arrow"/></button>
-            <h2>{fruits[fruit+2]}</h2>
+            <h2 id='next_fruit'>{fruits[fruit+2]}</h2>
         </div>
     </div>
   )

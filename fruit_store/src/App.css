@@ -20,10 +20,10 @@ html,body{
 }
 
 #company_logo{
-  width: 8rem;
+  width: 12rem;
 }
 
-#heading-constainer{
+#heading-container{
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -36,6 +36,7 @@ html,body{
 }
 
 #profile{
+  width: 3rem;
   border-radius: 50%;
   padding: 8%;
   margin-right: 70%;
@@ -182,8 +183,15 @@ button{
   margin-top: 5%;
 }
 
+#tag{
+  font-weight: bolder;
+}
+
+#receipt_logo{
+  width: 5rem;
+}
+
 #total_amount{
-  font-size: 3rem;
   font-weight: bolder;
   margin: 1% 20%;
 }
@@ -200,4 +208,136 @@ button{
 
 #tax-pill{
   font-size: 12px;
+}
+
+
+@media screen and (max-width: 600px) {
+  #logo{
+    margin: 2% 3%;
+  }
+  #company_logo{
+    width: 5rem;
+  }
+
+  #profile{
+    width: 1.5rem;
+  }
+
+  #bag{
+    border-radius: 20%/50%;
+    padding: 1.5% 10%;
+    height: 2em;
+  }
+
+  #bag_logo{
+    width: 1rem;
+  }
+
+  #location{
+    font-size: 0.5rem;
+  }
+  
+  #location_logo{
+    width: 1rem;
+    height: 2rem;
+  }
+  #place{
+    padding: 0.5rem;
+    font-size: 0.7rem;
+  }
+
+  #wish{
+    height: 2.5rem;
+  }
+
+  #wishlist_logo{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #cart_logo{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #left{
+    margin: 30% 0%;
+  }
+
+  #left_logo{
+    width: 3rem;
+  }
+
+  #prev_fruit{
+    font-size: 0.9rem;
+  }
+  #fruitName{
+    margin: 1% 17%;
+    font-size: 2.5rem;
+  }
+  
+  #fruit_Image{
+    width: 90%;
+    height: 17rem;
+    margin: -17% 10%;
+  }
+
+  #AddBtn{
+    margin: -80% 45%;
+    transform: translateY(-120%);
+    background-color: transparent;
+  }
+  
+  #Add_logo{
+    width: 3rem;
+  }
+  
+  #price{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin: -10% 42% 0%;
+  }
+
+  #right{
+    margin: 30% 0%;
+  }
+  
+  #right_logo{
+    width: 3rem;
+  }
+
+  #next_fruit{
+    font-size: 0.9rem;
+  }
+
+  #msg-logo{
+    width: 2rem;
+  }
+  
+  .receipt-container{
+    width: 30%;
+  }
+
+  #tag{
+    font-size: 1rem;
+  }
+  
+  #receipt_logo{
+    width: 1.5rem;
+  }
+  
+  #total_amount{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1% 10%;
+  }
+
+  .receipt-bottom{
+    width: 80%;
+    height: 1rem;
+  }
+
+  #tax-pill{
+    font-size: 6px;
+  }
 }
