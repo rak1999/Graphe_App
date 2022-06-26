@@ -1,0 +1,203 @@
+html,body{
+  margin: 0%;
+  height: 0%;
+  background-color: #303030;
+}
+#app{
+  width: 100%;
+  border-radius:  10%;
+  background-color: whitesmoke;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo{
+  margin: 2% 2%;
+  justify-content: center;
+}
+
+#company_logo{
+  width: 8rem;
+}
+
+#heading-constainer{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+#heading{
+  display: flex;
+  margin: 2% 2%;
+  justify-content: space-evenly;
+}
+
+#profile{
+  border-radius: 50%;
+  padding: 8%;
+  margin-right: 70%;
+  background-color: #ddd;
+}
+
+#bag{
+  border-radius: 20%/50%;
+  padding: 1.5% 20%;
+  height: 4em;
+  background-color: #ddd;
+}
+
+#bag_logo{
+  width: 3rem;
+  justify-content: center;
+}
+
+#location{
+  display: flex;
+  color: #6b6b6b;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+#location_logo{
+  width: 2rem;
+  height: 4rem;
+}
+#place{
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+#wish{
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+}
+
+button{
+  border: none;
+  border-radius: 50%;
+}
+
+#wish_count{
+  border-radius: 50%;
+  padding: 2%;
+  background-color: #ddd;
+  color: #6b6b6b;
+}
+
+#wishlist_logo{
+  width: 3rem;
+  height: 2rem;
+}
+
+#cart{
+  display: flex;
+  margin: 2% 2%;
+  justify-content: center;
+}
+
+#cart_logo{
+  width: 3rem;
+  height: 4rem;
+}
+
+#container-main{
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#left{
+  margin: 10% 0%;
+}
+
+#left_logo{
+  width: 6rem;
+}
+
+#fruit-container{
+  width: 60%;
+}
+
+#fruitName{
+  margin: 2% 30%;
+  font-size: 5em;
+}
+
+#fruit_Image{
+  width: 70%;
+  margin: -7% 10%;
+}
+
+#AddBtn{
+  margin: -80% 45%;
+  transform: translateY(-90%);
+  background-color: transparent;
+}
+
+#Add_logo{
+  width: 5rem;
+}
+
+#price{
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 0% 42%;
+}
+
+#right{
+  margin: 10% 0%;
+}
+
+#right_logo{
+  width: 6rem;
+}
+
+#bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% 8%;
+}
+
+#msg-logo{
+  width: 4rem;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
+.receipt-container{
+  background-color: #ddd;
+  width: 15%;
+  border-radius: 10% 10% 0% 0%;
+}
+.receipt-header{
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  margin-top: 5%;
+}
+
+#total_amount{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin: 1% 20%;
+}
+
+.receipt-bottom{
+  width: 60%;
+  border-radius: 20%/50%;
+  padding: 3% 5%;
+  margin: 5%;
+  height: 3em;
+  background-color: #6b6b6b;
+  color: aliceblue;
+}
+
+#tax-pill{
+  font-size: 12px;
+}
