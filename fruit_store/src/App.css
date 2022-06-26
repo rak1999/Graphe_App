@@ -1,6 +1,6 @@
 html,body{
   margin: 0%;
-  height: 0%;
+  padding: 0%;
   background-color: #303030;
 }
 #app{
@@ -211,7 +211,12 @@ button{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 631px) {
+  html,body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #303030;
+  }
   #logo{
     margin: 2% 3%;
   }
